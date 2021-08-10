@@ -1,0 +1,671 @@
+// @media(max-width: 952px){
+//     .products__characteristics{
+//         display: none;
+//     }
+//     .products__img{
+//         margin-bottom: 3rem;
+//     }
+// }
+@media(max-width: 768px){
+    html{
+        font-size: 13px;
+    }
+    // 1 section
+    //
+    section{
+        min-height: 100%;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        overflow: hidden;
+        height: auto;
+        align-items: center;
+    }
+
+    .mainpage{
+        min-height: 100%;
+        height: 100%;
+    }
+
+    .products{
+        min-height: 100%;
+        height: 100%;
+    }
+
+    .section{
+        min-height: 100%;
+        height: 100%;
+    }
+
+    .colors{
+        min-height: 100%;
+        height: 100%;
+    }
+
+    .reviews__section{
+        min-height: 100%;
+        height: 100%;
+    }
+
+    .video{
+        min-height: 100%;
+        height: 100%;
+    }
+
+    .delivery{
+        min-height: 100%;
+        height: 100%;
+    }
+
+    .map{
+        min-height: 100%;
+        height: 100%;
+    }
+
+    //
+    .header{
+        display: flex;
+        align-items: center;
+        padding-top: 10px;
+        position: relative;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .menu{
+        display: none;
+    }
+    .header__phone-number{
+        display: none !important;
+    }
+    .header{
+        display: flex; 
+        justify-content: space-between;
+    }
+    .burger-menu{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .features{
+        // display: flex;
+        display: none; 
+        justify-content: center; 
+        flex-wrap: wrap;
+    }
+    .mainpage{
+        height: 100%;
+        background: url('/img/pic/headset-beats-tablet.png') left 50% top 20% no-repeat;
+    }
+    .mainpage__wrapper{
+        display: flex;
+        align-items: flex-end;
+        width: 100%;
+        // height: calc(100vh - 50px); //header height
+        height: calc(100% - 50px);
+        // border: 1px solid black;
+    }
+    .mainpage__title{
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 0.8%;
+    }
+    .mainpage__main-title{
+        margin: 0 auto;
+    }
+    ///
+    .mainpage__container{
+        position: relative;
+    }
+    ///
+    .mainpage__title-description{
+        margin: 0 auto; 
+        margin-bottom: 10px;
+    }
+    .container{
+        width: 98vw;
+    }
+    section{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    // 2 section
+    .headline__subtitle{ 
+        width: 80%;
+    }
+
+    .headline{
+        // margin-bottom: 0.3rem;
+        margin-bottom: 10%;
+    }
+
+    .benefits__title{
+        margin-top: 0.5rem; 
+        margin-bottom: 1rem;
+    }
+
+    .benefits-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .benefits{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+        // height: calc(100vh - 6.425rem);
+        // height: calc(100vh - 7.425rem);
+
+        // height: calc(100vh - 25.425rem);
+        // height: calc(100% - 25.425rem);
+        height: 100%;
+
+        // border: 1px solid black;
+    }
+
+    .benefits__item{
+        width: auto;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 10%;
+        // &:first-child{
+        //     margin-right: 0;
+        // }
+
+        // &:last-child{
+        //     margin-left: 0;
+        // }
+    }
+
+    // 3 section
+
+    .arrows{
+        width: 85vw;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        background: transparent;
+    }
+
+    .products__content{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        // flex-wrap: wrap;
+        // border: 1px solid black;
+
+
+        // max-height: 100vh;
+        max-width: 100%;
+    }
+
+    .products__img{
+        margin-right: 0;
+        margin: 0 auto;
+        // width: auto;
+        width: 15.75rem;
+        height: 15.75rem;
+        // width: 85%;
+        // height: 85%;
+        // margin-bottom: 6rem;
+        picture, img{
+            width: 100%;
+            height: 100%;
+        }
+        z-index: -100;
+        margin-bottom: 0.4rem;
+    }
+
+    .products__characteristics{
+        display: none;
+    }
+
+    .products__title{
+        text-align: center;
+    }
+
+    .products__text{
+        margin: 0 auto;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        p{
+        text-align: center;
+        }
+    }
+
+    .products__benefits{
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+    }
+
+    .products__price-info{
+        margin: 0 auto;
+    }
+
+    .products__container{
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        width: 85%;
+    }
+
+    // 4 section
+    .accordion{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // height: 80vh;
+        height: 80%;
+        
+        
+        margin-top: 0;
+        // border: 1px solid black;
+    }
+
+
+    .accordion__item{
+        display: flex;
+        flex-direction: column;
+        width: 13.75rem;
+        margin: 0 auto;
+    
+            &:last-child{
+                margin: 0 auto;
+            }
+        margin-bottom: 1rem;
+    }
+
+    .accordion__container{
+        max-width: $containerWidth;
+        width: auto;
+        margin: 0 auto;
+        // min-height: 100vh;
+        height: auto;
+        max-height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .team-member-photo{
+        display: none;
+        order: 2;
+        height: 62%;
+    }
+
+    .accordion__button{
+        order: 1;
+        margin-bottom: 2%;
+    }
+
+    .team-member__work-info{
+        order: 3;
+        margin-bottom: 2%;
+        position: static;
+    }
+
+    // 5 section
+
+    .active-horizontal-accordion-item{
+        width: calc(100vw - #{$horizAccordionElemWidth});
+    }
+
+    .active-horizontal-accordion-elem{
+        order: 3;
+    }
+
+    .color__text{
+        p{  
+            width: 70%;
+        }
+    }
+
+    .color__name{
+        margin-bottom: 15.4rem;
+    }
+
+    
+    
+
+    // 6 section
+
+    .reviews__display{
+        transform: translate(0%,0%);
+        display: flex;
+        flex-direction: column;
+        // margin-top: 4.625rem;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .reviews__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .reviews__switcher{
+        margin-top: 3%;
+    }
+
+    .review2, .review3{
+        display: none;
+    }
+
+    .reviews__content{
+        margin: 0 auto;
+        width: 100%;
+        padding-top: 3%;
+    }
+
+    .reviews__text p{
+        text-align: center;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .reviews__title h3{
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 2%;
+    }
+
+    .reviews__owner{
+        text-align: center;
+        margin: 0 auto;
+        // margin-top: 2.375rem;
+        margin-top: 3%;
+    }
+
+    .reviews__avatar{
+        width: 15.8125rem;
+        height: 16.5rem;
+        margin: 0 auto;
+    }
+
+    // 7 section
+    .video__window{
+        width: 90%;
+        height: 24.48875rem;
+        border: 1px solid black;
+        position: relative;
+    }
+
+    //  8 section
+
+    .delivery__container{
+        display: flex;
+        flex-direction: column;
+        // height: 100vh !important;
+
+        height: 100% !important;
+
+
+        justify-content: space-around;
+    }
+
+    .delivery__headline{
+        padding-top: 0;
+        margin-bottom: 0;
+        margin: 0 auto;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .form__column{
+        margin-right: 0;
+        width: 100%;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        &:first-child{
+            margin-left: 0;
+        }
+        &:last-child{
+            margin-right: 0;
+            margin-right: 0;
+        }
+    }
+    
+    .form__controls{
+        display: flex;
+        justify-content: center;
+        // margin-top: 20px;
+        margin-top: 0.1vh;
+        // margin-bottom: -7px;
+        margin-bottom: 0.1vh;
+        &:last-child{
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+    }
+    
+    .form__buttons{
+        display: flex;
+        margin: 0 auto;
+        // margin-top: 30px;
+        margin-top: 2vh;
+        // width: 300px;
+        width: 18.75rem;
+    }
+
+    .form__input{
+        height: 6vh;
+    }
+    
+    // sidebar
+    .fixed-sidebar{
+        display: none;
+    }
+}
+
+
+
+@media(max-width: 480px){
+    html{
+        font-size: 11px;
+    }
+    
+    // 1 section
+    .menu{
+        display: none;
+    }
+    .phone-number{
+        display: none !important;
+    }
+    .header{
+        display: flex; 
+        justify-content: space-between;
+    }
+    .feature{
+        &:last-child
+        {
+            margin-left: 0;}
+        }
+    .features{
+        display: none; 
+        justify-content: start; 
+        flex-direction: column;
+    }
+    // .mainpage__wrapper{
+    //     display: flex;
+    //     align-items: flex-end;
+    //     width: 100%;
+    //     height: calc(100vh - 50px); //header height
+    //     // border: 1px solid black;
+    // }
+    // .mainpage__title{
+    //     text-align: center;
+    //     margin: 0 auto;
+    //     margin-bottom: 0.8%;
+    // }
+    // .mainpage__main-title{
+    //     margin: 0 auto;
+    // }
+    // .mainpage__icons{
+    //     margin-top: 120.15px;
+    // }
+
+    .mainpage{
+        background: url('/img/pic/headset-beats-phone.png') left 50% top 25% no-repeat;
+    }
+    .container{
+        width: 98vw;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    .section{
+        margin-top: 0;
+    }
+
+    //2 section
+    // .benefits{
+    //     height: calc(100vh - 25.425rem);
+
+    //     // border: 1px solid black;
+    // }
+
+    //3 section
+    .products__container{
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        width: 90%;
+    }
+    // .products__img{
+    //     margin-right: 0;
+    //     margin: 0 auto;
+    //     width: auto;
+    //     height: auto;
+    //     // margin-bottom: 6rem;
+    // }
+
+    .products__title{
+        font-size: 2rem;
+    }
+
+    .products__title-padding{
+        padding-left: 0;
+    }
+    
+    // .arrow-right{
+    //     // transform: translate(-19%,-25%);
+    //     transform: translate(-150%,-140%);
+    //     margin-left: 0;
+    // }
+    
+    // .arrow-left{
+    //     // transform: translate(-110%,-25%);
+    //     transform: translate(150%,-140%);
+    //     margin-left: 0;
+    // }
+    //
+    .arrow{
+        width: 1.5rem;
+        height: 2.5rem;
+        // position: relative;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+    
+    .arrow-right{
+        transform: translate(0,-25%);
+        // transform: translate(0,-140%);
+        // margin-left: 1rem !important;
+        // margin-right: 5px !important;
+    }
+    
+    .arrow-left{
+        transform: translate(0,-25%);
+        // transform: translate(0,-140%);
+        // margin-right: 1rem !important;
+        // margin-left: 5px !important;
+    }
+    
+    .arrows{
+        margin: 0 auto;
+        width: 100%;
+        // position: absolute;
+        display: flex;
+        justify-content: space-between;
+        background: transparent;
+    }
+    //
+    
+    // 5 section
+
+    //footer
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer__contacts{
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__row{
+        display: flex;
+        justify-content: center;
+        width: auto;
+        height: auto;
+        &:first-child{
+            margin-top: 0;
+        }
+    }
+
+    .footer__social-nets{
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media(max-height: 576px){
+    html{
+        font-size: 8px;
+    }
+
+    // // 2 section 
+    // .benefits{
+    //     // height: calc(100vh - 22.425rem);
+    //     // height: calc(100% - 22.425rem);
+    //     height: 100%;
+    // }
+
+    // // 4 section
+    // .accordion__item{
+    //     margin-bottom: 0;
+    // }
+
+    // // 6 section
+    // .reviews__avatar{
+    //     width: 12.8125rem;
+    //     height: 12.5rem;
+    //     margin: 0 auto;
+    // }
+
+    // .reviews__switcher{
+    //     margin-top: 0;
+    // }
+
+    // .reviews__display{
+    //     padding-top: 0;
+    // }
+}
+

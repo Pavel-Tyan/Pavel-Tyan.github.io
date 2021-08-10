@@ -1,0 +1,47 @@
+
+
+.team-member__work-info{
+    display: none;
+    position: absolute;
+}
+
+.team-member__work-info-active{
+    height: auto;
+    overflow: none;
+}
+
+.team-member__name{
+    font-family: Play;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 1.3125rem;
+    color: $black;
+}
+
+.team-member__work-seat{
+    text-align: center;
+    font-family: Play;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    color: $black;
+    margin-bottom: 0.25rem;
+    margin-top: 0.6875rem;
+}
+
+.team-member__work-achievements{
+    text-align: center;
+    text-align: center;
+    font-family: Play;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    color: $grey;
+}
+
+.team-member-photo{
+    margin-bottom: 1.5625rem;
+}

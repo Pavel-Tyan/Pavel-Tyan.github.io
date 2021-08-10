@@ -1,0 +1,31 @@
+.arrow{
+    width: 1.5rem;
+    height: 2.5rem;
+    position: relative;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.arrow-right{
+    transform: translate(0,-25%);
+    // transform: translate(0,-140%);
+    // margin-left: 1rem !important;
+    // margin-right: 5px !important;
+}
+
+.arrow-left{
+    transform: translate(0,-25%);
+    // transform: translate(0,-140%);
+    // margin-right: 1rem !important;
+    // margin-left: 5px !important;
+}
+
+.arrows{
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+}

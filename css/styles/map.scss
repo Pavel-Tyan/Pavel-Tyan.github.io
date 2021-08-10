@@ -1,0 +1,15 @@
+.map{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start !important;
+    height: 100vh;
+    position: relative;
+}
+
+.map__container{
+    height: calc(100vh - #{$footerHeight});
+    width: 100%;
+    position: absolute;
+}

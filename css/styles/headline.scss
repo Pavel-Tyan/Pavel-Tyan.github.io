@@ -1,0 +1,24 @@
+.headline__title{
+    margin-bottom: 18px;
+}
+
+.headline__subtitle {
+    // width: 580px;
+    width: 36.25rem;
+    margin: 0 auto;
+    font-family: Play;
+    font-style: normal;
+    font-weight: normal;
+    // font-size: 16px;
+    font-size: 1rem;
+    // line-height: 19px;
+    line-height: 1.1875rem;
+    text-align: center;
+    color: $grey;
+}
+
+.headline{
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+}

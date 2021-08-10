@@ -1,0 +1,24 @@
+.product__benefit{
+    display: flex;
+    flex-direction: column;
+}
+
+.product__benefit-name{
+    font-family: Play;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    color: $grey;
+}
+
+.product__benefit-text{
+    font-family: Play;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 1.3125rem;
+    color: $black;
+}
+
+

@@ -1,0 +1,33 @@
+.accordion{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3.3125rem;
+}
+
+.accordion__item{
+    width: 13.75rem;
+    margin-right: 20px;
+
+        &:last-child{
+            margin-right: 0;
+        }
+    position: relative;
+}
+
+.accordion__decoration{
+    width: 9px;
+    height: 9px;
+    transform: translate(4px, 3px);
+}
+
+
+
+.accordion__button{
+    outline: none;
+    border: none;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}

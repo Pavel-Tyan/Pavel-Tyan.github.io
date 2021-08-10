@@ -1,0 +1,24 @@
+.fullscreen-menu{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: $black;
+    // display: flex;
+    justify-content: center;
+    display: none;
+    flex-direction: column;
+    z-index: 1000;
+}
+
+.fullscreen-menu__button{
+    background-color: $black;
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    top: 0;
+    right: 5%;
+    top: 2%;
+    outline: none;
+    border: none;
+}

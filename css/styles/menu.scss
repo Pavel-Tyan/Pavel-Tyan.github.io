@@ -1,0 +1,39 @@
+.menu{
+    margin-right: 46px;
+    // margin-right: 2.875rem;
+    width: auto;
+    padding-top: 10px;
+}
+
+.menu__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.menu__item{
+    width: auto;
+    margin-right: 27px;
+    // margin-right: 1.6875rem;
+    
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+.menu__link{
+    font-family: Alegreya Sans;
+    font-style: normal;
+    font-weight: normal;
+    // font-size: 18px;
+    font-size: 1.125rem;
+    // line-height: 20px;
+    line-height: 1.25rem;
+    color: $black;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}

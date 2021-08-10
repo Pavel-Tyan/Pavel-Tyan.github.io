@@ -1,0 +1,42 @@
+.fixed-sidebar{
+    position: fixed;
+    top: 40%;
+    // left: 78.5%;
+    // right: 17.5%
+    right: 5%;
+}
+
+.fixed-sidebar__button{
+    background-color: transparent;
+    margin-bottom: -2px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    outline: none;
+    position: relative;
+    &:hover{
+        border: 1px solid $red;
+        .fixed-sidebar__active-decoration{
+            background-color: $red;
+        }
+    }
+}
+
+.fixed-sidebar__active-decoration{
+    width: 7px;
+    height: 7px;
+    background-color: $grey;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+}
+
+.fixed-sidebar__active{
+    border: 1px solid $red;
+    .fixed-sidebar__active-decoration{
+        background-color: $red;
+    }
+}

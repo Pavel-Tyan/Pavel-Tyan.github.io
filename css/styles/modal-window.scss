@@ -1,0 +1,35 @@
+.modal-window{
+    position: fixed;
+    background-color: $black;
+    width: 100vw;
+    height: 100vh;
+    // display: flex;
+    display: none;
+    justify-content: center;
+    top: 0;
+    z-index: 1000;
+}
+
+.modal-window__content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: $white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 19.3125rem;
+    height: 11rem;
+    .modal-window__text{
+        margin-bottom: 1.125rem;
+        font-family: Play;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+        text-align: center;
+        color: $black;
+
+    }
+}
