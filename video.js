@@ -5,7 +5,8 @@ const soundControl = document.querySelector('#soundLevel');
 
 const playButtonVideo = document.querySelector('.video_play-button');
 
-
+const pauseButtonVideo = document.querySelector('.video__pause-btn');
+const downPlayBtnVideo = document.querySelector('.downBtn');
 
 
 
@@ -54,6 +55,7 @@ function playStop(){
     if(video.paused) {
         intervalId = setInterval(updateDuration, NORMAL_UPDATE_RANGE);
         video.play();
+        changePauseBtnToPlayBtn();
     }
     else {
         stopInterval();
@@ -68,6 +70,7 @@ function setVideoDuration(){
     video.currentTime = durationControl.value;
     intervalId = setInterval(updateDuration, NORMAL_UPDATE_RANGE);
     if(video.paused) {
+        changePauseBtnToPlayBtn();
         video.play();
         playButtonVideo.classList.add('hidden');
     }
@@ -75,6 +78,7 @@ function setVideoDuration(){
 
 function stopInterval(){
     video.pause();
+    changePlayBtnToPauseBtn();
     clearInterval(intervalId);
 }
 
@@ -94,3 +98,18 @@ function changeSoundVolume(){
     video.volume = soundControl.value/MAX_SOUND_VALUE;
 }
 
+
+
+
+function changePlayBtnToPauseBtn(){
+    $(downPlayBtnVideo).hide();
+    $(pauseButtonVideo).show();
+    console.log('asd');
+}
+
+function changePauseBtnToPlayBtn(){
+    $(downPlayBtnVideo).show();
+    $(pauseButtonVideo).hide();
+    console.log('asd');
+
+}

@@ -1678,6 +1678,7 @@ html {
   border: none;
   background-color: transparent;
   position: relative;
+  display: block;
 }
 
 .video__item {
