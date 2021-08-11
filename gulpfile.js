@@ -15,7 +15,10 @@ const styles = [
 ]
 const objectsTobeDeleted = [
     "dist/**/*",
-    "!dist/index.html"
+    "!dist/index.html",
+    "!dist/jquery-lib.js",
+    "!dist/img",
+    "!dist/video"
 ]
 const scripts = [
     "src/scripts/*.js",
@@ -42,7 +45,7 @@ task( 'styles', () => {
     .pipe(concat('main.scss'))
     .pipe(sassGlob())
     .pipe(sass().on('error', sass.logError))
-    .pipe(cleanCSS())
+    // .pipe(cleanCSS())
     .pipe(dest('docs'));
 });
 
