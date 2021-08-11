@@ -1,0 +1,48 @@
+.colors{
+    background-image: url(../img/pic/accordion-backgr.jpg);
+    min-height: 100vh;
+    height: auto;
+    background-position: center center;    
+    background-repeat: no-repeat;    
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+}
+
+.colors__title{
+    margin-top: 10rem;
+    h1{
+    font-family: Play;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 3.25rem;
+    text-transform: uppercase;
+    color: $white;
+    width: 100%;
+    }
+    width: 100%;
+    // margin-right: 49.483125rem;
+    // top: 0;
+}
+
+.colors__container{
+    width: 100%;
+    // min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.colors__info{
+    position: absolute;
+    right: 0;
+    display: flex;
+    
+}
+
+.container__title{
+    position: absolute;
+    width: 58.75rem;
+}

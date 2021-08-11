@@ -1,0 +1,123 @@
+.products__content{
+    display: flex;
+    // flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    // width: 59.875rem !important;
+    // width: 59.875rem;
+    // width: 40.875rem;
+
+}
+
+.products__container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: auto;
+}
+
+.products__img{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 28.25rem;
+    height: 28.25rem;
+    // margin-right: 3.6875rem;
+    // margin-left: 3.6875rem;
+    transform: translate(0%,10%);
+    margin-bottom: 6rem;
+}
+
+.products__title{
+    text-align: start;
+    font-family: Play;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 2.625rem;
+    text-transform: uppercase;
+    color: $black;
+}
+
+.products__text{
+    width: 23rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    p{
+    font-family: Play;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    color: $grey;
+    }
+}
+
+.products__benefits{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    // width: 15.75rem;
+    width: 15rem;
+
+}
+
+.products__characteristics{
+    width: 5.6875rem;
+    height: 5.6875rem;
+    background: #9A9A9A;
+    position: relative;
+    outline: none;
+    border: none;
+    margin-bottom: 1.5625rem;
+}
+
+.products__price{
+    font-family: Play;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.25rem;
+    line-height: 3.75rem;
+    text-transform: uppercase;
+    color: $black;
+}
+
+.products__price-info{
+    display: flex;
+    justify-content: space-between;
+    width: 20.25rem;
+}
+
+.products__info{
+    // transform: translate(0, -20%);
+    margin: 0 auto;
+}
+
+.products__title-padding{
+    padding-left: 0.5rem;
+}
+
+.products{
+    // min-height: 100vh;
+    // height: auto;
+    height: 100vh;
+    background-color: $white;
+    display: flex;
+    justify-content: center;
+    background: url('../img/icon/Square-black.svg') top 100% right 10% no-repeat;
+}
+
+.bx-wrapper {
+    box-shadow: none !important;
+    border: none !important;
+    background: transparent !important;
+    display: flex;
+    justify-content: center;
+    width: 59.875rem !important;
+}
+
+.slider{
+    justify-content: center;
+}
+

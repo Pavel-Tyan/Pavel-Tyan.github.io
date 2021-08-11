@@ -1,0 +1,64 @@
+// containerWidth
+// $containerWidth: 940px;
+// // $containerWidth: 58.75vw;
+$containerWidth: 90vw;
+$horizAccordionElemWidth: 6.375rem;
+$footerHeight: 5.375rem;
+
+
+// colors
+$black: #292929;
+$red: #E01F3D;
+$grey: #666666;
+$white:#FFFFFF;
+
+// setups
+@import './layout.scss';
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Play:wght@400;700&display=swap');
+
+//styles
+// @import 'css/styles/*.scss';
+@import './styles/mainpage.scss';
+@import './styles/header.scss';
+@import './styles/burger-menu.scss';
+@import './styles/menu.scss';
+@import './styles/phone-number.scss';
+@import './styles/btns.scss';
+@import './styles/features.scss';
+@import './styles/logo.scss';
+@import './styles/section.scss';
+@import './styles/headline.scss';
+@import './styles/benefits.scss';
+@import './styles/decoration.scss';
+@import './styles/reviews.scss';
+@import './styles/delivery.scss';
+@import './styles/form.scss';
+@import './styles/radio.scss';
+@import './styles/modal-window.scss';
+@import './styles/map.scss';
+@import './styles/footer.scss';
+@import './styles/fixed-sidebar.scss';
+@import './sprite.scss';
+@import './styles/fullscreen-menu.scss';
+@import './styles/vertical-menu.scss';
+@import './styles/products.scss';
+@import './styles/product.scss';
+@import './styles/arrow.scss';
+@import './styles/dropdown-list.scss';
+@import './styles/accordion.scss';
+@import './styles/team-member.scss';
+@import './styles/colors.scss';
+@import './styles/color.scss';
+@import './styles/video.scss';
+@import './styles/sound.scss';
+
+
+
+
+
+
+
+
+//media requests
+@import './media.scss';

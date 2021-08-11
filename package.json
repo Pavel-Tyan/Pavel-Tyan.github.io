@@ -1,0 +1,33 @@
+{
+  "name": "beatsfinal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "accordion.js",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pavel-Tyan/beats.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pavel-Tyan/beats/issues"
+  },
+  "homepage": "https://github.com/Pavel-Tyan/beats#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rm": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.37.5"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
