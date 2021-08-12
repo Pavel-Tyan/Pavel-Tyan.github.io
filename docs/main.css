@@ -2044,7 +2044,7 @@ html {
   .mainpage__title {
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 0.8%;
+    margin-bottom: 13%;
   }
 
   .mainpage__main-title {
@@ -2380,6 +2380,10 @@ html {
 
   .mainpage {
     background: url("../img/pic/headset-beats-phone.png") left 50% top 25% no-repeat;
+  }
+
+  .mainpage__title {
+    margin-bottom: 41%;
   }
 
   .container {
@@ -2759,7 +2763,7 @@ html {
   .mainpage__title {
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 0.8%;
+    margin-bottom: 13%;
   }
 
   .mainpage__main-title {
@@ -3095,6 +3099,10 @@ html {
 
   .mainpage {
     background: url("../img/pic/headset-beats-phone.png") left 50% top 25% no-repeat;
+  }
+
+  .mainpage__title {
+    margin-bottom: 41%;
   }
 
   .container {
